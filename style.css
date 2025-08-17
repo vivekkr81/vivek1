@@ -6,6 +6,12 @@ label{
     color: white;
 }
 
+input{
+    cursor: pointer;
+}
+input:hover{
+    background-color: aqua;
+}
 body{
     
     background-color: black;
@@ -20,12 +26,14 @@ body{
     color: black;
     background-color: red;
     border: 2px solid blue;
+    
+    
 }
 div{
  
     padding: 10px;
     border: 2px solid red;
     text-align: center;
-
+    
     
 }
