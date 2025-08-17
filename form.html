@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vivek form</title>
-
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Welcome to our form</h1>
+<body>  
+    <div>
+        <h1>Welcome to our Class Form</h1>
+
+    <!-- ask to enter name -->
+    <label for="name">Name</label>
+    <input type="text" placeholder="Enter your name">
+    <br><br>
+
+      <!-- ask to enter class name -->
+    <label for="class">Class</label>
+    <input type="text" placeholder="Enter your class name" name="class">
+    <br><br>
+
+     <!-- ask to enter Roll No -->
+    <label for="Roll No">Roll No</label>
+    <input type="text" placeholder="Enter your Roll No" name="Roll No">
+    <br><br>
+
+     <!-- ask to select gender -->
+    <label for="Gender">Gender</label>
+    <label for="Male">Male</label>
+    <input type="radio"  name="Gender">
+    <label for="Female">Female</label>
+    <input type="radio"  name="Gender">
+    <br><br>
+      
+    <!-- ask if he agree to all rules -->
+    <input type="checkbox" name="check">
+     <label for="check">you agree to all rules of the class,</label>
+     <br><br>
+
+    <!-- Ask to submit form -->
+    <input type="submit" placeholder="submit" name="submit" class="submit">
+    </div>
+
 </body>
 </html>
