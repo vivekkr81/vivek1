@@ -1,0 +1,14 @@
+    p{
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+    }
+    div :first-child{
+        background-color: yellow;
+        color: red;
+    }
+
+    p:hover{
+        background-color: red;
+        color: black;
+    }
