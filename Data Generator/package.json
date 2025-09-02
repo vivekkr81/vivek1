@@ -1,0 +1,18 @@
+{
+  "name": "data-generator",
+  "version": "1.0.0",
+  "description": "Dummy Data Generator",
+  "main": "data.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data"
+  ],
+  "author": "vivek",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.18.0"
+  }
+}
